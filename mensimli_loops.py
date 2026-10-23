@@ -383,5 +383,6 @@ while True:
         total+=doubleI+int(cardNumber[i+1])
     if total%10==0:
         print('Valid card number')
+        break
     else:
         print('Invalid card number')
